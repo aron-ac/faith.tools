@@ -38,7 +38,7 @@ export default defineConfig({
   }),
 // https://astro.build/config
 //export default defineConfig({
- // integrations,
+ integrations,
  // output: "server",
 //  adapter: netlify()
 });
