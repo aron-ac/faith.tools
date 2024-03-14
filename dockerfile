@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Build your application.
-RUN npm run build
+RUN npx astro build
 
 # Set environment variables and expose the appropriate port.
 ENV HOST=0.0.0.0
