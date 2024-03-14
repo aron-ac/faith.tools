@@ -48,7 +48,7 @@ export async function getListOfTools() {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
-      Authorization: "Token " + import.meta.env.BASEROW_API_KEY,
+      Authorization: "Token " + process.env.BASEROW_API_KEY,
     },
   })
 
