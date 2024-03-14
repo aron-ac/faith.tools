@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
 import alpinejs from "@astrojs/alpinejs";
-import netlify from "@astrojs/netlify";
+//import netlify from "@astrojs/netlify";
 import sentry from "@sentry/astro";
 import keystatic from '@keystatic/astro';
 import react from '@astrojs/react'
@@ -31,8 +31,8 @@ if (SENTRY_DSN && SENTRY_AUTH_TOKEN && SENTRY_PROJECT) {
 }
 
 // https://astro.build/config
-export default defineConfig({
-  integrations,
-  output: "server",
-  adapter: netlify()
+//export default defineConfig({
+ // integrations,
+ // output: "server",
+//  adapter: netlify()
 });
